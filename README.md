@@ -16,7 +16,7 @@
    ```sh
    cp .env.dist .env
    ```
-3Build the project
+3. Build the project
    ```sh
    cd test_task
    make build

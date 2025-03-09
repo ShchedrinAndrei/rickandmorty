@@ -6,7 +6,7 @@ namespace App\Application\Response;
 
 use App\Domain\Entity\Episode;
 
-class EpisodeListResponse
+readonly class EpisodeListResponse
 {
     public function __construct(
         /**

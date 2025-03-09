@@ -13,6 +13,6 @@ migrate:
 codestyle:
 	docker exec app vendor/bin/php-cs-fixer check src --allow-risky=yes
 fix-codestyle:
-	docker exec app vendor/bin/php-cs-fixer check src --allow-risky=yes
+	docker exec app vendor/bin/php-cs-fixer fix src --allow-risky=yes
 static-analysis:
 	docker exec app vendor/bin/phpstan analyse src
