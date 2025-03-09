@@ -10,18 +10,22 @@
 
 1. Clone the repo
    ```sh
-   git clone git@gitlab.com:andrey_schedrin/test_task.git
+   git clone https://github.com/ShchedrinAndrei/rickandmorty.git
    ```
-2. Build the project
+2. Copy env file
+   ```sh
+   cp .env.dist .env
+   ```
+3Build the project
    ```sh
    cd test_task
    make build
    ```
-3. Run migrations
+4. Run migrations
    ```sh
    make migrate
    ```
-4. Fetch episodes from the API
+5. Fetch episodes from the API
    ```sh
    php bin/console app:fetch_episodes
    ```
