@@ -34,7 +34,7 @@ services:
     environment:
       POSTGRES_USER: user
       POSTGRES_PASSWORD: secret
-      POSTGRES_DB: crawler
+      POSTGRES_DB: episode
     ports:
       - ${POSTGRES_PORT}:5432
     volumes:

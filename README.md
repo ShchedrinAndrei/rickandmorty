@@ -10,16 +10,20 @@
 
 1. Clone the repo
    ```sh
-   git clone git@gitlab.com:andrey_schedrin/clinic_crawler.git
+   git clone git@gitlab.com:andrey_schedrin/test_task.git
    ```
 2. Build the project
    ```sh
-   cd clinic_crawler
+   cd test_task
    make build
    ```
 3. Run migrations
    ```sh
    make migrate
+   ```
+4. Fetch episodes from the API
+   ```sh
+   php bin/console app:fetch_episodes
    ```
    
 ### Before push
@@ -30,7 +34,7 @@
    ```
 2. Run phpstan
    ```sh
-    make stat-analysis
+    make static-analysis
     ```
 3. Run php-cs-fixer
     ```sh

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Symfony;
+namespace App\Infrastructure\Symfony;
 
 use Doctrine\DBAL\Schema\SchemaException;
 use Doctrine\ORM\Tools\Event\GenerateSchemaEventArgs;
